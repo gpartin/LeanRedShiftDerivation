@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLW008OperationalRedshift
+import RedshiftLWFormal.Core.RedshiftLW009ContinuumMatch
 
-/-! Public Stage 8 entrypoint for REDSHIFTLW-001. -/
+/-! Public Stage 9 entrypoint for REDSHIFTLW-001. -/
 
