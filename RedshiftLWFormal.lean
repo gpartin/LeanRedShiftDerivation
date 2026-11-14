@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLW006SourceProfile
+import RedshiftLWFormal.Core.RedshiftLW007PotentialMap
 
-/-! Public Stage 6 entrypoint for REDSHIFTLW-001. -/
+/-! Public Stage 7 entrypoint for REDSHIFTLW-001. -/
 
