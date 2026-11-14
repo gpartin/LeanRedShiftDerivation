@@ -1,6 +1,6 @@
-# LeanRedShiftDerivation — REDSHIFTLW-001 Stages 1-11
+# LeanRedShiftDerivation — REDSHIFTLW-001 Stages 1-12
 
-This public repository contains the first eleven promoted Lean stages of the LFM
+This public repository contains all twelve promoted Lean stages of the LFM
 redshift derivation. Stage 1 establishes the root action handoff from the
 finite C19 lattice geometry and checks its kinetic/potential decomposition.
 Stage 2 derives the native local clock relation and verifies its positive
@@ -20,16 +20,20 @@ the fixed-physical-scale weak-field GR comparison while keeping the physical
 geometry and signal wavelength fixed. Stage 10 derives the native speed/time
 conversion family while explicitly leaving the absolute SI length anchor free.
 Stage 11 compares the relational prediction with published benchmark ratios
-without treating those observations as LFM model inputs.
+without treating those observations as LFM model inputs. Stage 12 wires the
+formal handoffs into `RedshiftLWStrictFormalCertificate` and closes the core
+symbolic certificate chain.
 
 The package includes the Lean toolchain declaration, mathlib lockfile, source
 modules, and fresh-checkout verifiers. Run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage11.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage12.ps1
 ```
 
-Claim boundary: these are foundation stages only. They do not claim full
-Einstein redshift closure. The local staging repository contains the later
-operational, RCA, validation, and mass-support work.
+Closing claim boundary: the twelve-stage core battery passes as an operational,
+dimensionless derivation and certificate. It does not claim a derived SI
+length anchor, Earth-source magnitude, full Einstein field-equation closure,
+or uniqueness of the massless sector. The local staging repository retains the
+separate c40/v39, massless-sector, source-range, and Einstein-closure RCA work.
 
