@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLW011ObservationMatch
+import RedshiftLWFormal.Core.RedshiftLW012StrictCertificate
 
-/-! Public Stage 11 entrypoint for REDSHIFTLW-001. -/
+/-! Public Stage 12 entrypoint for REDSHIFTLW-001. -/
 
