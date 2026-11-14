@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLW005CoupledPhaseBranch
+import RedshiftLWFormal.Core.RedshiftLW006SourceProfile
 
-/-! Public Stage 5 entrypoint for REDSHIFTLW-001. -/
+/-! Public Stage 6 entrypoint for REDSHIFTLW-001. -/
 
