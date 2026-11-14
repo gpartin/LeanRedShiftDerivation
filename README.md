@@ -1,6 +1,6 @@
-# LeanRedShiftDerivation — REDSHIFTLW-001 Stages 1-7
+# LeanRedShiftDerivation — REDSHIFTLW-001 Stages 1-8
 
-This public repository contains the first seven promoted Lean stages of the LFM
+This public repository contains the first eight promoted Lean stages of the LFM
 redshift derivation. Stage 1 establishes the root action handoff from the
 finite C19 lattice geometry and checks its kinetic/potential decomposition.
 Stage 2 derives the native local clock relation and verifies its positive
@@ -14,12 +14,14 @@ records that the evolved source profile is evaluated with the native c40 root
 potential rather than a prescribed or externally sourced profile. Stage 7
 reconstructs the operational potential from the dimensionless native clock
 lapse and validates its native source-energy map on a held-out source strength.
+Stage 8 formalizes the operational receiver/emitter frequency relation and
+tests it with forward/reverse packets and no-source controls.
 
 The package includes the Lean toolchain declaration, mathlib lockfile, source
 modules, and fresh-checkout verifiers. Run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage07.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage08.ps1
 ```
 
 Claim boundary: these are foundation stages only. They do not claim full
