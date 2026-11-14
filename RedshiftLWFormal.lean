@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLW003Equation
+import RedshiftLWFormal.Core.RedshiftLW004PsiBranchAudit
 
-/-! Public Stage 3 entrypoint for REDSHIFTLW-001. -/
+/-! Public Stage 4 entrypoint for REDSHIFTLW-001. -/
 
