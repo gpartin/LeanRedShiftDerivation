@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLW001RootAction
+import RedshiftLWFormal.Core.RedshiftLW002NativeClock
 
-/-! Public Stage 1 entrypoint for REDSHIFTLW-001. -/
+/-! Public Stage 2 entrypoint for REDSHIFTLW-001. -/
 
