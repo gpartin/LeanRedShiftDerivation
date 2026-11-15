@@ -1,0 +1,9 @@
+import RedshiftLWFormal
+
+#print axioms RedshiftLWFormal.redshiftLW_stage01_root_action
+#print axioms RedshiftLWFormal.redshiftLW_stage02_native_clock
+#print axioms RedshiftLWFormal.redshiftLW_structure_factor_nonnegative
+#print axioms RedshiftLWFormal.redshiftLW_phase_propagating_gap_positive
+#print axioms RedshiftLWFormal.redshiftLW_operational_receiver_emitter_ratio
+#print axioms RedshiftLWFormal.redshiftLW_continuum_weak_field_gr_squared
+#print axioms RedshiftLWFormal.redshiftLW_strict_formal_certificate

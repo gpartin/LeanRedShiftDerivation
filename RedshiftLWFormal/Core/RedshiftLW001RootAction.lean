@@ -10,7 +10,7 @@ def RedshiftLWStage01 : Prop :=
 
 theorem redshiftLW_directed_c19_length :
     redshiftLWDirectedC19.length = 18 := by
-  native_decide
+  decide
 
 theorem redshiftLW_stage01_root_action : RedshiftLWStage01 := by
   exact ⟨rfl, rfl, redshiftLW_directed_c19_length⟩

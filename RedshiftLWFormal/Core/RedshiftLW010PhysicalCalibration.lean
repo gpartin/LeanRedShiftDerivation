@@ -4,7 +4,7 @@ namespace RedshiftLWFormal
 
 noncomputable section
 
-/-! Stage 15 formal boundary.  c40 supplies native units.  An external choice
+/-! Stage 10 formal boundary.  The declared action supplies native units.  An external choice
 of physical length scale fixes the corresponding time scale through the
 native carrier speed and c_SI; the theorem deliberately leaves that length
 anchor free. -/

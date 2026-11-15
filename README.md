@@ -31,9 +31,34 @@ modules, and fresh-checkout verifiers. Run:
 powershell -ExecutionPolicy Bypass -File .\scripts\verify_stage12.ps1
 ```
 
+For a platform-independent release check, run:
+
+```text
+python scripts/verify_release.py
+```
+
+Publication documentation:
+
+- [`docs/CLAIMS.md`](docs/CLAIMS.md) separates proved Lean statements from
+  numerical or physical claims that remain outside this repository.
+- [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) gives the clean-checkout
+  procedure and identifies the formal entrypoints.
+- [`docs/REGISTRY_SCOPE.md`](docs/REGISTRY_SCOPE.md) identifies the narrow
+  theorem suitable for external theorem registries and states its exact limits.
+- [`docs/SUBMISSION_TRACKER.md`](docs/SUBMISSION_TRACKER.md) records external
+  preservation, verification, and listing requests without treating a listing
+  as scientific endorsement.
+
 Closing claim boundary: the twelve-stage core battery passes as an operational,
 dimensionless derivation and certificate. It does not claim a derived SI
 length anchor, Earth-source magnitude, full Einstein field-equation closure,
-or uniqueness of the massless sector. The local staging repository retains the
-separate c40/v39, massless-sector, source-range, and Einstein-closure RCA work.
+or uniqueness of the massless sector. Separate massless-sector, source-range,
+and Einstein-closure investigations are outside this release.
+
+Several late-stage results are deliberately interface identities: they verify
+that the declared readouts compose consistently. They do not prove that the
+root action dynamically forms a source profile or that Einstein gravity has
+been derived. See `docs/CLAIMS.md` before citing the artifact.
+
+This repository is released under [CC0-1.0](LICENSE).
 

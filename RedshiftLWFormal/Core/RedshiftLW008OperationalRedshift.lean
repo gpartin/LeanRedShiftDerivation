@@ -4,11 +4,11 @@ namespace RedshiftLWFormal
 
 noncomputable section
 
-/-! Stage 13 formal boundary.  A stationary carrier has one common rate in
+/-! Stage 8 formal boundary.  A stationary carrier has one common rate in
 coordinate evolution.  Dividing that rate by each endpoint's native clock
 rate gives the locally measured frequency, so the receiver/emitter ratio is
-the emitter/receiver clock-rate ratio.  The numerical companion supplies the
-packet, reverse, and no-source controls. -/
+the emitter/receiver clock-rate ratio.  A numerical companion would need to supply the
+packet, reverse, and no-source controls; they are not included here. -/
 
 def redshiftLWOperationalReceiverEmitterRatio
     (observation : RedshiftLWEndpointObservation) : ℝ :=

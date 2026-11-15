@@ -1,4 +1,4 @@
-import RedshiftLWFormal.Core.RedshiftLWDefinitions
+import RedshiftLWFormal.Core.RedshiftLW003Equation
 
 namespace RedshiftLWFormal
 
@@ -6,7 +6,7 @@ noncomputable section
 
 /-! The intended Dirac crosswalk assigns chi to the clock/mass background and
 Psi to the propagating signal.  This module audits the corresponding
-linearized uniform c40 branch.  It is a no-go certificate for that branch,
+linearized uniform branch of the declared action.  It is a no-go certificate for that branch,
 not a claim about every nonlinear or inhomogeneous solution. -/
 
 def redshiftLWPsiUniformGap (chiRadius : ℝ) : ℝ :=
