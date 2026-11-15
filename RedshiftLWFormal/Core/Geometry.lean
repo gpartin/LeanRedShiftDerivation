@@ -47,19 +47,19 @@ def momentSixths (a b : Fin 3) : Int :=
   positiveC19.foldl (fun total d =>
     total + d.weightSixths * coord a d * coord b d) 0
 
-theorem positive_bond_count : positiveC19.length = 9 := by native_decide
+theorem positive_bond_count : positiveC19.length = 9 := by decide
 
 theorem positive_face_bond_count : positiveFaceC19.length = 3 := by
-  native_decide
+  decide
 
 theorem positive_edge_bond_count : positiveEdgeC19.length = 6 := by
-  native_decide
+  decide
 
 theorem directed_face_mode_count : directedFaceModeCount = 6 := by
-  native_decide
+  decide
 
 theorem directed_edge_mode_count : directedEdgeModeCount = 12 := by
-  native_decide
+  decide
 
 theorem chi0_from_c19_value : chi0FromC19 = 19 := by
   unfold chi0FromC19
@@ -78,15 +78,15 @@ theorem B_from_geometry_value : BFromGeometry = 1197 := by
   rw [chi0_from_c19_value, kappa_from_geometry_value]
   norm_num
 
-theorem moment00 : momentSixths 0 0 = 6 := by native_decide
-theorem moment11 : momentSixths 1 1 = 6 := by native_decide
-theorem moment22 : momentSixths 2 2 = 6 := by native_decide
-theorem moment01 : momentSixths 0 1 = 0 := by native_decide
-theorem moment02 : momentSixths 0 2 = 0 := by native_decide
-theorem moment10 : momentSixths 1 0 = 0 := by native_decide
-theorem moment12 : momentSixths 1 2 = 0 := by native_decide
-theorem moment20 : momentSixths 2 0 = 0 := by native_decide
-theorem moment21 : momentSixths 2 1 = 0 := by native_decide
+theorem moment00 : momentSixths 0 0 = 6 := by decide
+theorem moment11 : momentSixths 1 1 = 6 := by decide
+theorem moment22 : momentSixths 2 2 = 6 := by decide
+theorem moment01 : momentSixths 0 1 = 0 := by decide
+theorem moment02 : momentSixths 0 2 = 0 := by decide
+theorem moment10 : momentSixths 1 0 = 0 := by decide
+theorem moment12 : momentSixths 1 2 = 0 := by decide
+theorem moment20 : momentSixths 2 0 = 0 := by decide
+theorem moment21 : momentSixths 2 1 = 0 := by decide
 
 end RedshiftLWFormal
 
