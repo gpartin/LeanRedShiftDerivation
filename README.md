@@ -60,3 +60,5 @@ that the declared readouts compose consistently. They do not prove that the
 root action dynamically forms a source profile or that Einstein gravity has
 been derived. See `docs/CLAIMS.md` before citing the artifact.
 
+This repository is released under [CC0-1.0](LICENSE).
+
