@@ -5,7 +5,7 @@ namespace RedshiftLWFormal
 noncomputable section
 
 /-! A coupled nonzero-Psi/nonzero-chi rotor has a phase tangent sector.  The
-local c40 potential depends on the Hermitian norms, so a phase-only perturbation
+declared root potential depends on the Hermitian norms, so a phase-only perturbation
 does not change the local norm coupling at first order.  The C19 area term
 provides the spatial stiffness.  This module formalizes the algebraic branch
 relations and the two phase eigenvalue contracts; the numerical companion

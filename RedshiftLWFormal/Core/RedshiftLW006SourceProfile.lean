@@ -4,9 +4,9 @@ namespace RedshiftLWFormal
 
 noncomputable section
 
-/-! Stage 11 formal boundary.  The numerical handoff supplies an evolved,
-coarse-grained profile.  Lean records that its energetic content is the native
-c40 root potential; it does not turn a numerical receipt into a theorem. -/
+/-! Stage 6 formal boundary.  The numerical handoff supplies an evolved,
+coarse-grained profile.  Lean records that its energetic content is the declared
+root potential; it does not turn a numerical receipt into a theorem. -/
 
 def redshiftLWSourceProfilePotential {L : Nat} [NeZero L]
     (chi : RedshiftLWChi L) (psi : RedshiftLWPsi L) : ℝ :=

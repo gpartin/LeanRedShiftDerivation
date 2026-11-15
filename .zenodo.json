@@ -1,0 +1,26 @@
+{
+  "title": "Lean Redshift Derivation",
+  "description": "Lean 4 formalization of a twelve-stage operational redshift handoff for a declared complex-Psi/complex-chi C19 lattice action. The release proves the stated lattice geometry, clock and phase algebra, a scoped uniform-branch obstruction, and endpoint readout identities. It does not claim dynamical source formation, an absolute SI scale, the Einstein field equations, or uniqueness of a physical light sector.",
+  "creators": [
+    {
+      "name": "Partin, G. D."
+    }
+  ],
+  "license": "cc0-1.0",
+  "upload_type": "software",
+  "keywords": [
+    "Lean 4",
+    "formalization",
+    "redshift",
+    "lattice field model",
+    "C19 lattice",
+    "clock-rate readout"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/gpartin/LeanRedShiftDerivation",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

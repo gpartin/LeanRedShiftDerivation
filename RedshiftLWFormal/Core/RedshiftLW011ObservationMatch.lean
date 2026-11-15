@@ -4,10 +4,10 @@ namespace RedshiftLWFormal
 
 noncomputable section
 
-/-! Stage 16 formal boundary.  External observations enter as benchmark data,
-not as dynamics or fitted LFM inputs.  The numerical handoff checks the
-reported ratio against the dimensionless relational prediction and records
-that absolute source-to-SI magnitude remains outside the c40 lock. -/
+/-! Stage 11 formal boundary.  External observations enter as benchmark data,
+not as dynamics or fitted LFM inputs.  This module states the uncertainty
+contract only; no observational dataset is included.  Absolute source-to-SI
+magnitude remains outside the formal claim. -/
 
 def redshiftLWObservationResidual
     (observedRatio predictedRatio : ℝ) : ℝ :=

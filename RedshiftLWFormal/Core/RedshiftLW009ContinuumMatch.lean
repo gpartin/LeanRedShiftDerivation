@@ -4,10 +4,11 @@ namespace RedshiftLWFormal
 
 noncomputable section
 
-/-! Stage 14 formal boundary.  Stage 12 defines the operational potential from
+/-! Stage 9 formal boundary.  Stage 7 defines the operational potential from
 the native clock lapse.  Squaring the weak-field GR redshift expression then
-reduces to the stationary-signal relation proved in Stage 13.  The numerical
-companion supplies the fixed-physical-scale refinement and h-dependent error.
+reduces to the stationary-signal relation proved in Stage 8.  A numerical
+companion would need to supply fixed-physical-scale refinement and h-dependent error;
+those data are not included here.
 -/
 
 def redshiftLWWeakFieldGRRatioSquared

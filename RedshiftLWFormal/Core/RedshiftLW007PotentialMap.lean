@@ -4,7 +4,7 @@ namespace RedshiftLWFormal
 
 noncomputable section
 
-/-! Stage 12 formal boundary.  The operational potential is reconstructed from
+/-! Stage 7 formal boundary.  The operational potential is reconstructed from
 the dimensionless native clock lapse.  This is a readout identity, not a new
 dynamical metric field or an inserted redshift law. -/
 

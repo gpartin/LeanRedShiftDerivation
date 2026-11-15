@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this formal research artifact, please cite it using this metadata."
+title: "Lean Redshift Derivation"
+type: software
+authors:
+  - family-names: "Partin"
+    given-names: "G. D."
+version: "0.12.0-research"
+date-released: "2026-11-15"
+repository-code: "https://github.com/gpartin/LeanRedShiftDerivation"
+license: CC0-1.0
+abstract: >-
+  A Lean 4 formalization of a twelve-stage operational redshift handoff for a
+  declared complex-Psi/complex-chi C19 lattice action. The artifact proves C19
+  geometry and clock algebra, a scoped uniform-branch obstruction, positivity
+  of a coupled phase branch, and exact endpoint readout identities. It does not
+  prove dynamical source formation, an absolute SI scale, the Einstein field
+  equations, or a unique physical light sector.
