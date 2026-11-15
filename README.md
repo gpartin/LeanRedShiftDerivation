@@ -43,6 +43,8 @@ Publication documentation:
   numerical or physical claims that remain outside this repository.
 - [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) gives the clean-checkout
   procedure and identifies the formal entrypoints.
+- [`docs/REGISTRY_SCOPE.md`](docs/REGISTRY_SCOPE.md) identifies the narrow
+  theorem suitable for external theorem registries and states its exact limits.
 - [`docs/SUBMISSION_TRACKER.md`](docs/SUBMISSION_TRACKER.md) records external
   preservation, verification, and listing requests without treating a listing
   as scientific endorsement.
