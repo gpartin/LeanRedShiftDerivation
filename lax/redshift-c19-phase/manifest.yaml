@@ -8,10 +8,13 @@ authors:
     github: "gpartin"
 bibEntries:
   - |
-      @software{partin2026redshift,
-        author = {Partin, G. D.},
-        title = {LeanRedShiftDerivation},
-        year = {2026},
-        doi = {10.5281/zenodo.24236840},
-        url = {https://github.com/gpartin/LeanRedShiftDerivation}
-      }
+    @software{partin2026redshift,
+      author = {Partin, G. D.},
+      title = {LeanRedShiftDerivation},
+      year = {2026},
+      doi = {10.5281/zenodo.24236840},
+      url = {https://github.com/gpartin/LeanRedShiftDerivation}
+    }
+issue:
+  repositoryId: 1320232165
+  number: 226
