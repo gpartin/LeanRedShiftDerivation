@@ -60,5 +60,7 @@ that the declared readouts compose consistently. They do not prove that the
 root action dynamically forms a source profile or that Einstein gravity has
 been derived. See `docs/CLAIMS.md` before citing the artifact.
 
-This repository is released under [CC0-1.0](LICENSE).
+Project-authored content is available under [MIT](LICENSE) or
+[CC0-1.0](LICENSE-CC0), at the recipient's option. See
+[LICENSING.md](LICENSING.md) for scope and third-party terms.
 

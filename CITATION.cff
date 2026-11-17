@@ -8,7 +8,7 @@ authors:
 version: "0.12.0-research"
 date-released: "2026-11-15"
 repository-code: "https://github.com/gpartin/LeanRedShiftDerivation"
-license: CC0-1.0
+license: MIT
 abstract: >-
   A Lean 4 formalization of a twelve-stage operational redshift handoff for a
   declared complex-Psi/complex-chi C19 lattice action. The artifact proves C19
